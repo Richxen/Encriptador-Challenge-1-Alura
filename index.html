@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&amp;display=swap" rel="stylesheet">
+    <title>Alura Challenge 1: Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="asset/images/Frame 6.png" alt="logo de alura">
+        </div>
+        <div class="titulo-principal">
+            <h2> Encriptador/Desencriptador</h2>
+        </div>
+    </header>
+    <main>       
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion"><img src="asset/images/bi_exclamation-circle-fill.png"> Solo letras minúsculas y sin tildes</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>            
+            <textarea class="mensaje" cols="20" rows="10" id="textoCopiar"></textarea>
+            <div>
+                <button class="btn-copia" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">Maximiliano A. Fuentealba para Alura Challenge #1 - 2024</p>
+    </footer>
+<script src="asset/js/script.js"></script>    
+</body>
+</html>
